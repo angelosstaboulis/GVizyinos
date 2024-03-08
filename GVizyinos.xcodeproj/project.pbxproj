@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65611DB2B9AFE1100AB0BA6 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D65611DA2B9AFE1100AB0BA6 /* RealityKitContent */; };
+		D65611DD2B9AFE1100AB0BA6 /* GVizyinosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611DC2B9AFE1100AB0BA6 /* GVizyinosApp.swift */; };
+		D65611DF2B9AFE1100AB0BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611DE2B9AFE1100AB0BA6 /* ContentView.swift */; };
+		D65611E12B9AFE1200AB0BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65611E02B9AFE1200AB0BA6 /* Assets.xcassets */; };
+		D65611E42B9AFE1200AB0BA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65611E32B9AFE1200AB0BA6 /* Preview Assets.xcassets */; };
+		D65611EF2B9AFE1200AB0BA6 /* GVizyinosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611EE2B9AFE1200AB0BA6 /* GVizyinosTests.swift */; };
+		D65611FA2B9AFF5500AB0BA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611F92B9AFF5500AB0BA6 /* HomeView.swift */; };
+		D65611FC2B9B01C200AB0BA6 /* Biography.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611FB2B9B01C200AB0BA6 /* Biography.swift */; };
+		D65611FF2B9B01F700AB0BA6 /* BiographyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611FE2B9B01F700AB0BA6 /* BiographyModel.swift */; };
+		D65612022B9B054200AB0BA6 /* BiographyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65612012B9B054200AB0BA6 /* BiographyViewModel.swift */; };
+		D65612042B9B0E1C00AB0BA6 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65612032B9B0E1C00AB0BA6 /* Gallery.swift */; };
+		D65612062B9B133B00AB0BA6 /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65612052B9B133B00AB0BA6 /* MediaView.swift */; };
+		D65612082B9B13A400AB0BA6 /* Publications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65612072B9B13A400AB0BA6 /* Publications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D65611EB2B9AFE1200AB0BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65611CD2B9AFE1100AB0BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65611D42B9AFE1100AB0BA6;
+			remoteInfo = GVizyinos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D65611D52B9AFE1100AB0BA6 /* GVizyinos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVizyinos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65611D92B9AFE1100AB0BA6 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		D65611DC2B9AFE1100AB0BA6 /* GVizyinosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVizyinosApp.swift; sourceTree = "<group>"; };
+		D65611DE2B9AFE1100AB0BA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D65611E02B9AFE1200AB0BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D65611E32B9AFE1200AB0BA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D65611E52B9AFE1200AB0BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65611EA2B9AFE1200AB0BA6 /* GVizyinosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GVizyinosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65611EE2B9AFE1200AB0BA6 /* GVizyinosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVizyinosTests.swift; sourceTree = "<group>"; };
+		D65611F92B9AFF5500AB0BA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D65611FB2B9B01C200AB0BA6 /* Biography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biography.swift; sourceTree = "<group>"; };
+		D65611FE2B9B01F700AB0BA6 /* BiographyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiographyModel.swift; sourceTree = "<group>"; };
+		D65612012B9B054200AB0BA6 /* BiographyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiographyViewModel.swift; sourceTree = "<group>"; };
+		D65612032B9B0E1C00AB0BA6 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		D65612052B9B133B00AB0BA6 /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		D65612072B9B13A400AB0BA6 /* Publications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publications.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65611D22B9AFE1100AB0BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65611DB2B9AFE1100AB0BA6 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65611E72B9AFE1200AB0BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D65611CC2B9AFE1100AB0BA6 = {
+			isa = PBXGroup;
+			children = (
+				D65611D72B9AFE1100AB0BA6 /* GVizyinos */,
+				D65611D82B9AFE1100AB0BA6 /* Packages */,
+				D65611ED2B9AFE1200AB0BA6 /* GVizyinosTests */,
+				D65611D62B9AFE1100AB0BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D65611D62B9AFE1100AB0BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65611D52B9AFE1100AB0BA6 /* GVizyinos.app */,
+				D65611EA2B9AFE1200AB0BA6 /* GVizyinosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65611D72B9AFE1100AB0BA6 /* GVizyinos */ = {
+			isa = PBXGroup;
+			children = (
+				D65612002B9B052D00AB0BA6 /* ViewModel */,
+				D65611FD2B9B01E800AB0BA6 /* Model */,
+				D65611F82B9AFF4500AB0BA6 /* View */,
+				D65611DC2B9AFE1100AB0BA6 /* GVizyinosApp.swift */,
+				D65611DE2B9AFE1100AB0BA6 /* ContentView.swift */,
+				D65611E02B9AFE1200AB0BA6 /* Assets.xcassets */,
+				D65611E52B9AFE1200AB0BA6 /* Info.plist */,
+				D65611E22B9AFE1200AB0BA6 /* Preview Content */,
+			);
+			path = GVizyinos;
+			sourceTree = "<group>";
+		};
+		D65611D82B9AFE1100AB0BA6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D65611D92B9AFE1100AB0BA6 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D65611E22B9AFE1200AB0BA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D65611E32B9AFE1200AB0BA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D65611ED2B9AFE1200AB0BA6 /* GVizyinosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D65611EE2B9AFE1200AB0BA6 /* GVizyinosTests.swift */,
+			);
+			path = GVizyinosTests;
+			sourceTree = "<group>";
+		};
+		D65611F82B9AFF4500AB0BA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D65611F92B9AFF5500AB0BA6 /* HomeView.swift */,
+				D65611FB2B9B01C200AB0BA6 /* Biography.swift */,
+				D65612032B9B0E1C00AB0BA6 /* Gallery.swift */,
+				D65612052B9B133B00AB0BA6 /* MediaView.swift */,
+				D65612072B9B13A400AB0BA6 /* Publications.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D65611FD2B9B01E800AB0BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D65611FE2B9B01F700AB0BA6 /* BiographyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D65612002B9B052D00AB0BA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D65612012B9B054200AB0BA6 /* BiographyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65611D42B9AFE1100AB0BA6 /* GVizyinos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65611F22B9AFE1200AB0BA6 /* Build configuration list for PBXNativeTarget "GVizyinos" */;
+			buildPhases = (
+				D65611D12B9AFE1100AB0BA6 /* Sources */,
+				D65611D22B9AFE1100AB0BA6 /* Frameworks */,
+				D65611D32B9AFE1100AB0BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GVizyinos;
+			packageProductDependencies = (
+				D65611DA2B9AFE1100AB0BA6 /* RealityKitContent */,
+			);
+			productName = GVizyinos;
+			productReference = D65611D52B9AFE1100AB0BA6 /* GVizyinos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D65611E92B9AFE1200AB0BA6 /* GVizyinosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65611F52B9AFE1200AB0BA6 /* Build configuration list for PBXNativeTarget "GVizyinosTests" */;
+			buildPhases = (
+				D65611E62B9AFE1200AB0BA6 /* Sources */,
+				D65611E72B9AFE1200AB0BA6 /* Frameworks */,
+				D65611E82B9AFE1200AB0BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65611EC2B9AFE1200AB0BA6 /* PBXTargetDependency */,
+			);
+			name = GVizyinosTests;
+			productName = GVizyinosTests;
+			productReference = D65611EA2B9AFE1200AB0BA6 /* GVizyinosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65611CD2B9AFE1100AB0BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D65611D42B9AFE1100AB0BA6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D65611E92B9AFE1200AB0BA6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D65611D42B9AFE1100AB0BA6;
+					};
+				};
+			};
+			buildConfigurationList = D65611D02B9AFE1100AB0BA6 /* Build configuration list for PBXProject "GVizyinos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65611CC2B9AFE1100AB0BA6;
+			productRefGroup = D65611D62B9AFE1100AB0BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65611D42B9AFE1100AB0BA6 /* GVizyinos */,
+				D65611E92B9AFE1200AB0BA6 /* GVizyinosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65611D32B9AFE1100AB0BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65611E42B9AFE1200AB0BA6 /* Preview Assets.xcassets in Resources */,
+				D65611E12B9AFE1200AB0BA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65611E82B9AFE1200AB0BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65611D12B9AFE1100AB0BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65611FA2B9AFF5500AB0BA6 /* HomeView.swift in Sources */,
+				D65611DF2B9AFE1100AB0BA6 /* ContentView.swift in Sources */,
+				D65612042B9B0E1C00AB0BA6 /* Gallery.swift in Sources */,
+				D65612022B9B054200AB0BA6 /* BiographyViewModel.swift in Sources */,
+				D65611FF2B9B01F700AB0BA6 /* BiographyModel.swift in Sources */,
+				D65612062B9B133B00AB0BA6 /* MediaView.swift in Sources */,
+				D65611DD2B9AFE1100AB0BA6 /* GVizyinosApp.swift in Sources */,
+				D65612082B9B13A400AB0BA6 /* Publications.swift in Sources */,
+				D65611FC2B9B01C200AB0BA6 /* Biography.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65611E62B9AFE1200AB0BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65611EF2B9AFE1200AB0BA6 /* GVizyinosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D65611EC2B9AFE1200AB0BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65611D42B9AFE1100AB0BA6 /* GVizyinos */;
+			targetProxy = D65611EB2B9AFE1200AB0BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D65611F02B9AFE1200AB0BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		D65611F12B9AFE1200AB0BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		D65611F32B9AFE1200AB0BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GVizyinos/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.GVizyinos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		D65611F42B9AFE1200AB0BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GVizyinos/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.GVizyinos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		D65611F62B9AFE1200AB0BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.GVizyinosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVizyinos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GVizyinos";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		D65611F72B9AFE1200AB0BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.GVizyinosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVizyinos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GVizyinos";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65611D02B9AFE1100AB0BA6 /* Build configuration list for PBXProject "GVizyinos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65611F02B9AFE1200AB0BA6 /* Debug */,
+				D65611F12B9AFE1200AB0BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65611F22B9AFE1200AB0BA6 /* Build configuration list for PBXNativeTarget "GVizyinos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65611F32B9AFE1200AB0BA6 /* Debug */,
+				D65611F42B9AFE1200AB0BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65611F52B9AFE1200AB0BA6 /* Build configuration list for PBXNativeTarget "GVizyinosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65611F62B9AFE1200AB0BA6 /* Debug */,
+				D65611F72B9AFE1200AB0BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D65611DA2B9AFE1100AB0BA6 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D65611CD2B9AFE1100AB0BA6 /* Project object */;
+}
