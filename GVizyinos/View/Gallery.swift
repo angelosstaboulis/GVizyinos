@@ -7,7 +7,7 @@
 
 import SwiftUI
 struct Gallery: View {
-    var photos = ["vizy2","vizy3","vizy4","vizy5"]
+    var photos = ["vizy2","vizy3","vizy4","vizy5","vizy6","vizy7","vizy8"]
     var body: some View {
         ScrollView(.horizontal){
             HStack{
