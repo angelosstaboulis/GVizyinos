@@ -15,7 +15,10 @@ struct WebVideo:UIViewRepresentable{
     }
     
     func makeUIView(context: Context) -> some WKWebView {
-        webView.load(URLRequest(url: URL(string: urlVideo)!))
+        let url = URL(string:urlVideo)
+        if url != nil {
+            webView.load(URLRequest(url: URL(string: urlVideo)!))
+        }
         return webView
     }
 }
