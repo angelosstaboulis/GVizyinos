@@ -8,9 +8,20 @@
 import SwiftUI
 import AVKit
 struct MediaView: View {
+    @State private var amount = 0.0
+    let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     var body: some View {
-        VStack{
-            WebVideo(urlVideo: "https://www.youtube.com/embed/M6naNMurTvk").frame(width: 1280, height: 1280)
+        ZStack(alignment: .center) {
+            ProgressView("Loading…", value: amount, total: 50)
+                .onReceive(timer) { _ in
+                    if amount < 50 {
+                        amount += 2
+                    }
+            }.opacity(amount < 50 ? 1 : 0.0)
+            .progressViewStyle(.circular)
+            
+        }.background {
+            WebVideo(urlVideo: "https://www.youtube.com/embed/M6naNMurTvk").frame(width:1280,height:1280)
         }
     }
 }
