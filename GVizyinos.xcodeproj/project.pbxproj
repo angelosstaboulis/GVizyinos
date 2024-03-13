@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D607F9F02BA1D29200210FBE /* WebVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607F9EF2BA1D29200210FBE /* WebVideo.swift */; };
 		D65611DB2B9AFE1100AB0BA6 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D65611DA2B9AFE1100AB0BA6 /* RealityKitContent */; };
 		D65611DD2B9AFE1100AB0BA6 /* GVizyinosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611DC2B9AFE1100AB0BA6 /* GVizyinosApp.swift */; };
 		D65611DF2B9AFE1100AB0BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65611DE2B9AFE1100AB0BA6 /* ContentView.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D607F9EF2BA1D29200210FBE /* WebVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVideo.swift; sourceTree = "<group>"; };
 		D65611D52B9AFE1100AB0BA6 /* GVizyinos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVizyinos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65611D92B9AFE1100AB0BA6 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		D65611DC2B9AFE1100AB0BA6 /* GVizyinosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVizyinosApp.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				D65612032B9B0E1C00AB0BA6 /* Gallery.swift */,
 				D65612052B9B133B00AB0BA6 /* MediaView.swift */,
 				D65612072B9B13A400AB0BA6 /* Publications.swift */,
+				D607F9EF2BA1D29200210FBE /* WebVideo.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				D65612062B9B133B00AB0BA6 /* MediaView.swift in Sources */,
 				D65611DD2B9AFE1100AB0BA6 /* GVizyinosApp.swift in Sources */,
 				D65612082B9B13A400AB0BA6 /* Publications.swift in Sources */,
+				D607F9F02BA1D29200210FBE /* WebVideo.swift in Sources */,
 				D65611FC2B9B01C200AB0BA6 /* Biography.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
