@@ -21,8 +21,9 @@ struct MediaView: View {
             .progressViewStyle(.circular)
             
         }.background {
-            WebVideo(urlVideo: "https://www.youtube.com/embed/M6naNMurTvk").frame(width:1280,height:1280)
+            WebVideo(urlVideo: "http://www.youtube.com/embed/M6naNMurTvk?autohide=0").frame(width:1280,height:580)
         }
+   
     }
 }
 #Preview {
